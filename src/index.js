@@ -28,9 +28,10 @@ function writeToFile(fileName, data) {
 }
 // Function to initialize the app
 // This function prompts the user with questions, generates markdown, and writes it to README.md
-function init() {inquirer.prompt(questions).then(function(responses) {
-    const markdown = generateMarkdown(responses);
-    writeToFile('README.md', markdown);
+function init() {
+  inquirer.prompt(questions).then((answers) => {
+    const markdown = generateMarkdown(answers);
+    writeToFile('test_README.md', markdown); // Writes to new file test_README.md
   });
 }
 
