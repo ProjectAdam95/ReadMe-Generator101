@@ -82,7 +82,9 @@ Build
 - 2. Clone the repository to your local machine using the following command: git clone 'reposiotry url'. (Applies if you are using Gitbash)
 - 3. Change your current directory to the project directory: cd ReadMe-Generator101
 - 4. Install required npm packages: npm install
-- 5. Run the application: 1. cd src (Navigates to source directory within the README-GENERATOR101 file) , 2. node.index.js (START-UP THE APPLICATION)
+- 5. Run the application: 
+      - cd src (Navigates to source directory within the readme-generator101 file)
+      - node.index.js (stars the application up)
 - 6. Answer the prompts/questions in the command line!
 - 7. View your generated readme file. It will be called (test_README.md) If you are using VS code you can right click Open Preview to view.
 - 8. If you are satisfied after viewing the final result you can copy the ReadMe components and rename it/add it to your existing project!
@@ -110,6 +112,9 @@ Software used
 Below is a preview photo of the website.
 
 Click here to view preview video/gif: https://jmp.sh/7DWh8KPu
+if that doesn't work click on this link here!: https://imgur.com/bIBfosW
+
+You may also download the image for your own reference :D
 
 
 ## :star2: Credit/Acknowledgment
