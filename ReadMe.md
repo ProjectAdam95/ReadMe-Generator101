@@ -4,17 +4,17 @@ A README generator that simplifies the creation of professional and structured R
 
 # Introduction
  
- ReadMe-Generator101 by Adam Todorovic
+ReadMe-Generator101 by Adam Todorovic
 
 
 ## :ledger: Index
 
 - [About](#beginner-about)
-  - [File Structure](#file_folder-file-structure)
-  - [Build](#hammer-build)  
-  - [Deployment](#rocket-deployment)  
+- [File Structure](#file_folder-file-structure)
+- [Build](#hammer-build)  
+- [Deployment](#rocket-deployment)  
 - [Community](#cherry_blossom-community)
-  - [Contribution](#fire-contribution)
+- [Contribution](#fire-contribution)
 - [Resources](#page_facing_up-resources)
 - [Gallery](#camera-gallery)
 - [Credit/Acknowledgment](#star2-creditacknowledgment)
@@ -26,14 +26,18 @@ This is a README Generator application that helps users create detailed and well
 
 
 Features include:
-- Generates a structured high-quality, professional README.md is generated with the title of my project and sections entitled Description..
+- Generates a structured high-quality, professional test_README.md is generated with the title of my project and sections entitled Description..
 - Allows users to input project details through a series of prompts.
 - Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions are displayed as sections on the generated ReadMe file called "test_README.md"
-- A license of choice will be shown as a badge on the top of the ReadMe that adds visual appeal to the readme generated. 
+- A license of choice will be shown as a badge on the top of the ReadMe that adds visual appeal to the readme generated.
+- Clicking on the sections of the ReadMe under the title "Index" will take you to the corresponding section of choice when clicked.
 - Licence choice of (MIT, Apache 2.0, BSD 3), and no license are available. More can be added as per user request.
 - Github username and email is visible at the bottom of the generated ReadMe under "Questions" if the user wishes to contact the relevant person.
-- Clicking on the sections of the ReadMe under the title "Index" will take you to the corresponding section of choice when clicked.
-
+- Included preview gif.video that demonstrates the functionality of the application and how it generates the test_README.md which you will use.
+- Includes preview photos of(these photos can assist with the development process for any user that is having issues creating their ReadMe):
+1. terminal use and commands
+2. photo of the generated readme
+- Photos can be viewed in the file called "photos" via github or if you have cloned it to your local machine. It will be available in the your file directory under the file name (README-GENERATOR101).
 
 ###  :file_folder: File Structure
 
@@ -44,7 +48,7 @@ Below is a view of the file structure deployed to GitHub.
 README-GENERATOR/
 │
 ├── node_modules/         # Directory for npm packages
-│
+├── photos                # Photos of the functionality and final result
 ├── src/                  # Source directory for project files
 │   ├── generateMarkdown.js
 │   └── index.js
@@ -70,27 +74,29 @@ Build
 
 ### :rocket: Deployment
 
-- To deploy this application please follow the below instructions:
-- 1. First, clone the repository to your local machine using the following command: git clone <repository-url>
-- 2. Change your current directory to the project directory: cd ReadMe-Generator101
-- 3. Install required npm packages: npm install
-- 4. Run the application: 1. cd src, 2. node.index.js
-- 5. Answer the prompts/questions in the command line!
-- 6. View your generated readme file. It will be called (test_README.md) If you are using VS code you can right click Open Preview to view.
-- 7. If you are satisfied after viewing the final result you can copy the ReadMe components and rename it/add it to your existing project!
+  To deploy this application please follow the below instructions:
+
+- 1. Navigate to your terminal so we can save the file to your computer where you will run the application to generate the readme_test.md
+- 2. Clone the repository to your local machine using the following command: git clone <repository-url> (Applies if you are using Gitbash)
+- 3. Change your current directory to the project directory: cd ReadMe-Generator101
+- 4. Install required npm packages: npm install
+- 5. Run the application: 1. cd src (Navigates to source directory within the README-GENERATOR101 file) , 2. node.index.js (START-UP THE APPLICATION)
+- 6. Answer the prompts/questions in the command line!
+- 7. View your generated readme file. It will be called (test_README.md) If you are using VS code you can right click Open Preview to view.
+- 8. If you are satisfied after viewing the final result you can copy the ReadMe components and rename it/add it to your existing project!
 
  ###  :fire: Contribution
 
  - Your contributions are always welcome and greatly appreciated. Here are some ways you can contribute to the project:
 
  1. **Report a bug** <br>
- If you think you have encountered a bug, and I should know about it, feel free to report it here [here](https://github.com/ProjectAdam95/ReadMeGenerator101/issues). I will look into it and take the necessary steps.
+ If you think you have encountered a bug, and I should know about it, feel free to report it here [here](https://github.com/ProjectAdam95/ReadMe-Generator101/issues). I will look into it and take the necessary steps.
  
  2. **Request a feature** <br>
- If you have a feature idea that you think would enhance the project, you can request it [here](https://github.com/ProjectAdam95/ReadMeGenerator101/issues), If the feature is deemed viable, it will be considered for development. 
+ If you have a feature idea that you think would enhance the project, you can request it [here](https://github.com/ProjectAdam95/ReadMe-Generator101/issues), If the feature is deemed viable, it will be considered for development. 
 
  3. **Create a pull request** <br>
- The best way to contribute is by creating a pull request. The community will appreciate your efforts. You can start by picking up any open issues from [here](https://github.com/ProjectAdam95/ReadMeGenerator101/issues)and submitting a pull request.
+ The best way to contribute is by creating a pull request. The community will appreciate your efforts. You can start by picking up any open issues from [here](https://github.com/ProjectAdam95/ReadMe-Generator101/issues)and submitting a pull request.
 
 ##  :page_facing_up: Resources
 

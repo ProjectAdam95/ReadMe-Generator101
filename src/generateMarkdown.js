@@ -88,8 +88,8 @@ ${renderLicenseSection(data.license)}
 
 ## Questions
 
-If you have any questions about the project, you can reach out to me at -> [${data.email}](mailto:${data.email}).
-You can also find more of my work on my github page -> [${data.github}](https://github.com/${data.github}).
+Any questions or comments can be directed to me @ -> [${data.email}](mailto:${data.email}).
+You can also find more of my work on my github page ! -> [${data.github}](https://github.com/${data.github}).
 
 `;
 }
