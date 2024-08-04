@@ -78,8 +78,8 @@ Build
 
   To deploy this application please follow the below instructions:
 
-- 1. Navigate to your terminal you can save the file to your computer where you will run the application to generate the readme_test.md
-- 2. Clone the repository to your local machine using the following command: git clone 'reposiotry url'. (Applies if you are using Gitbash)
+- 1. Navigate to your terminal so you can save the file to your computer where you will run the application to generate the readme_test.md
+- 2. Clone the repository to your local machine using the following command: git clone 'repository url'. (Applies if you are using Gitbash)
 - 3. Change your current directory to the project directory: cd ReadMe-Generator101
 - 4. Install required npm packages: npm install
 - 5. Run the application: 
@@ -88,6 +88,11 @@ Build
 - 6. Answer the prompts/questions in the command line!
 - 7. View your generated readme file. It will be called (test_README.md) If you are using VS code you can right click Open Preview to view.
 - 8. If you are satisfied after viewing the final result you can copy the ReadMe components and rename it/add it to your existing project!
+
+- IMPORTANT NOTE: The video demonstrating the use and functionality is already in the readme-generator101/src file. You can see this in the command line at the bottom of the screen
+  where i am using VS code. The video starts off with the node index.js command which runs the application. Please ensure you have done steps 1 to 4 before running the applicaiton.
+  The video is purely showing the use and functionality of the application from the point of running it in the command line,answering the user prompts and a preview of the working ReadMe that was generated.
+  If you are stuck and unable to resolve an issue do not hesitate to contact me on my email or leave a comment in the issues links below under the contribution section!
 
  ###  :fire: Contribution
 
@@ -111,8 +116,8 @@ Software used
 ##  :camera: Gallery
 Below is a preview photo of the website.
 
-Click here to view preview video/gif: https://jmp.sh/7DWh8KPu
-if that doesn't work click on this link here!: https://imgur.com/bIBfosW
+- Click here to view preview video/gif!: https://jmp.sh/7DWh8KPu
+- Click here if the above link doesn't work !: https://imgur.com/bIBfosW
 
 You may also download the image for your own reference :D
 
