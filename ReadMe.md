@@ -48,17 +48,18 @@ Below is a view of the file structure deployed to GitHub.
 
 README-GENERATOR/
 │
-├── node_modules/         # Directory for npm packages ( .ignore so its not visible on the repository)
-├── photos                # Photos of the functionality and final result
+├── node_modules/         # Directory for npm packages (ignored by .gitignore so it's not visible in the repository)
+├── photos/               # Directory containing photos of the functionality and final result
 ├── src/                  # Source directory for project files
 │   ├── generateMarkdown.js
-│   └── index.js
+│   ├── index.js
+│   └── test_README.md    # Generated README file (created by the user prompt)
 │
-├── .gitignore            # Git ignore file (node_modules and .DS_store are in here)
+├── .gitignore            # Git ignore file (node_modules and .DS_Store are in here)
 ├── package-lock.json     # Automatically generated for tracking exact dependency versions
 ├── package.json          # Configuration file for npm
 ├── README.md             # Project README file
-└── test_README.md        # Generated README file (This will be the file created by the user prompt)
+└── test_README.md        # Generated README file (created by the user prompt)
 
 
 ```
@@ -108,7 +109,7 @@ Software used
 ##  :camera: Gallery
 Below is a preview photo of the website.
 
-Click here to view preview photos: PREVIEW HERE
+Click here to view preview video/gif: https://jmp.sh/7DWh8KPu
 
 
 ## :star2: Credit/Acknowledgment
