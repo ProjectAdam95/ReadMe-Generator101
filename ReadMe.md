@@ -26,8 +26,8 @@ This is a README Generator application that helps users create detailed and well
 
 
 Features include:
-- Generates a structured high-quality, professional test_README.md with a Title, D
-escription, Installtion, Usage, Contribution, Test and Licence.
+- Generates a structured high-quality, professional test_README.md with a Title, 
+  Description, Installtion, Usage, Contribution, Test and Licence.
 - Allows users to input project details through a series of prompts.
 - Title, Description, Installation, Usage, License, Contributing, Tests, and Questions are displayed as sections on the generated ReadMe file called "test_README.md"
 - A license of choice will be shown as a badge on the top of the ReadMe that adds visual appeal to the readme generated.
@@ -36,9 +36,10 @@ escription, Installtion, Usage, Contribution, Test and Licence.
 - Github username and email is visible at the bottom of the generated ReadMe under "Questions" if the user wishes to contact the relevant person.
 - Included preview gif.video that demonstrates the functionality of the application and how it generates the test_README.md which you will use.
 - Includes preview photos of(these photos can assist with the development process for any user that is having issues creating their ReadMe):
-1. terminal use and commands
-2. photo of the generated readme
-- Photos can be viewed in the file called "photos" via github or if you have cloned it to your local machine. It will be available in the your file directory under the file name (README-GENERATOR101).
+1. Terminal use and commands (clear view of all the terminal commands used in vs code to launch the application including the user prompts)
+2. Photo of the generated readme (preview photo of the generted readme made through the command line)
+- Photos can be viewed in the file called "photos" via github or if you have cloned it to your local machine. 
+  It will be available in the your file directory under the file name (README-GENERATOR101).
 
 ###  :file_folder: File Structure
 
@@ -69,7 +70,7 @@ Build
 - File changes updated and modified using terminal eg. Git bash to add, commit and pull e.t.c.
 - Code Editor: Used code editor e.g VS code , to modify existing code and make changes to the javascript code as per request.
 - Version Control: Regularly committed changes to a Git repository to track progress and maintain version history.
-- Testing and Debugging: Tested the application in different browsers and devices to ensure cross-browser compatibility and responsiveness.
+- Testing and Debugging: Tested the application to ensure compatibility and responsiveness.
 - Documentation: Documented code changes, setup instructions to facilitate collaboration and future maintenance.
 - Code notes: Notes explaining what each piece of code does, such as a function in Javascript. It is displayed above the corresponding code.
 - This enables developers to easily read the code and identify how the application works. Notes have been added to the JS files.
