@@ -26,9 +26,10 @@ This is a README Generator application that helps users create detailed and well
 
 
 Features include:
-- Generates a structured high-quality, professional test_README.md is generated with the title of my project and sections entitled Description..
+- Generates a structured high-quality, professional test_README.md with a Title, D
+escription, Installtion, Usage, Contribution, Test and Licence.
 - Allows users to input project details through a series of prompts.
-- Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions are displayed as sections on the generated ReadMe file called "test_README.md"
+- Title, Description, Installation, Usage, License, Contributing, Tests, and Questions are displayed as sections on the generated ReadMe file called "test_README.md"
 - A license of choice will be shown as a badge on the top of the ReadMe that adds visual appeal to the readme generated.
 - Clicking on the sections of the ReadMe under the title "Index" will take you to the corresponding section of choice when clicked.
 - Licence choice of (MIT, Apache 2.0, BSD 3), and no license are available. More can be added as per user request.
@@ -47,13 +48,13 @@ Below is a view of the file structure deployed to GitHub.
 
 README-GENERATOR/
 │
-├── node_modules/         # Directory for npm packages
+├── node_modules/         # Directory for npm packages ( .ignore so its not visible on the repository)
 ├── photos                # Photos of the functionality and final result
 ├── src/                  # Source directory for project files
 │   ├── generateMarkdown.js
 │   └── index.js
 │
-├── .gitignore            # Git ignore file
+├── .gitignore            # Git ignore file (node_modules and .DS_store are in here)
 ├── package-lock.json     # Automatically generated for tracking exact dependency versions
 ├── package.json          # Configuration file for npm
 ├── README.md             # Project README file
@@ -76,8 +77,8 @@ Build
 
   To deploy this application please follow the below instructions:
 
-- 1. Navigate to your terminal so we can save the file to your computer where you will run the application to generate the readme_test.md
-- 2. Clone the repository to your local machine using the following command: git clone <repository-url> (Applies if you are using Gitbash)
+- 1. Navigate to your terminal you can save the file to your computer where you will run the application to generate the readme_test.md
+- 2. Clone the repository to your local machine using the following command: git clone 'reposiotry url'. (Applies if you are using Gitbash)
 - 3. Change your current directory to the project directory: cd ReadMe-Generator101
 - 4. Install required npm packages: npm install
 - 5. Run the application: 1. cd src (Navigates to source directory within the README-GENERATOR101 file) , 2. node.index.js (START-UP THE APPLICATION)
